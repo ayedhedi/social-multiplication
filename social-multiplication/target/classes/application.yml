@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  couchbase:
+    bucket:
+      name: attempts
+
+## RabbitMQ configuration
+multiplication:
+  exchange: multiplication_exchange
+  solved:
+    key:  multiplication.solved
